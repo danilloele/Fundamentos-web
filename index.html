@@ -6,23 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cantigas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <ul>
-        <li><a href="index.html"> Home</a></li>
-        <li><a href="cantiga.html"> Cantigas</a></li>
-        <ul>
-            <li><a href="pato.html">O pato</a></li>
-        </ul>
-        <li><a href="contato.html"> Contato</a></li>
-    </ul>
-    <h1>Cantigas Infantis</h1>
+    <div class="dropdown">
+        <button class="menu"></button>
+        <div class="dropdown-child char">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="cantiga.html"> Cantigas</a></li>
+            <ul>
+                <li><a href="pato.html">O pato</a></li>
+            </ul>
+            <li><a href="contato.html"> Contato</a></li>
+        </div>
+    </div>
 
-    <p>Acervo de músicas infantis</p>
+<div class="container">
+    <div class="center p-20">
+        <h1 class="titulo-padrao">Cantigas Infantis</h1>
 
-    <img src="./assets/img/roda.jpg" alt="Crianças de mãos dadas em roda">
+        <p>Acervo de músicas infantis</p>
+    </div>
+    <div class="center p-20">
+        <img src="./assets/img/roda.jpg" alt="Crianças de mãos dadas em roda">
+    </div>
+</div>
+
 </body>
 
 </html>
