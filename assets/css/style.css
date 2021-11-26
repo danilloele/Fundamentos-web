@@ -32,12 +32,12 @@ h1{  /*referencia por tag*/
 .p-20{
     padding: 20px;
 }
-button{
-    list-style-image: url('./assets/img/menu.png');
+.button{
+    list-style-image:url('./assets/img/menu.png');
 }
 
 .menu{
-    background-image: url(./assets/img/menu.png);
+    background-image:url(./assets/img/menu.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px 20px;
